@@ -1,0 +1,85 @@
+.swapContainer {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    max-width: 300px;
+    /* Adjusted max-width to be smaller */
+    margin: 0 auto;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tab {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.activeBuy {
+    background-color: #00c853;
+}
+.activeSell {
+    background-color: #f64848;
+}
+
+.balance {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    color: white;
+    font-size: 16px;
+}
+
+.details {
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.actionButtonBuy {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00c853;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.actionButtonSell {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f64848;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
